@@ -1,0 +1,16 @@
+package org.tnsifspringioc;
+
+//to demonstrate a program on spring IOC
+//implementable class for Sim Interface
+public class Jio implements Sim{
+
+	public void call() {
+		System.out.println("I am using jio calling");
+		
+	}
+
+	public void data() {
+		System.out.println("I am using jio data");		
+	}
+
+}
