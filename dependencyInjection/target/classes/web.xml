@@ -5,11 +5,13 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
 
-<!--comment-->
-<!---bean id="airtel" class="/springIOC/src/main/java/org/tnsifspringioc/Airtel.java"></bean>
-<bean id="jio" class="/springIOC/src/main/java/org/tnsifspringioc/Jio.java"></bean-->
 
-<!---beans-->
-<bean id="sim" class="/springIOC/src/main/java/org/tnsifspringioc/Airtel.java"></bean>
+
+
+<bean id="e1" class="org.tnsif.objectsdi.Student">
+<property name="address">
+<bean class="org.tnsif.objectsdi.Address"/>
+</property>
+</bean>
 
 </beans>
