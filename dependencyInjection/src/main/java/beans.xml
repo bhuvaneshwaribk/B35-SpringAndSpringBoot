@@ -8,7 +8,7 @@
 
 
 <!---beans-->
-<bean id="e1" class="/dependencyInjection/src/main/java/org/tnsif/dependencyinjection/Employee.java">
+<bean id="e1" class="org.tnsif.dependencyinjection.Employee">
 <constructor-arg name="id" value="101"/>
 <constructor-arg name="empname" value="Dularchand"/>
 </bean>
@@ -16,7 +16,7 @@
 <!--property name="id" value="101"/>
 <property name="empname" value="Dularchand"/-->
 
-<bean id="e2" class="/dependencyInjection/src/main/java/org/tnsif/dependencyinjection/Employee.java">
+<bean id="e2" class="org.tnsif.dependencyinjection.Employee">
 <constructor-arg name="id" value="102"/>
 <constructor-arg name="empname" value="Aakansha"/>
 </bean>
